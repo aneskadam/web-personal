@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blok dengan Gambar dan Tombol</title>
+    <style>
+        .block-container {
+            border: 1px solid black; /* Border hitam */
+            padding: 9px;
+            margin: 9px auto;
+            text-align: center;
+            width: 450px;
+            background-color: #f7fb00;
+            box-shadow: 10px 10px 10px rgb(5, 16, 234); /* Shadow */
+        }
+        .block-container img {
+            padding-block-start: 4%;
+            padding-bottom: 5%;
+            width: 70%;
+            height: auto;
+            border-bottom: 1px solid rgb(252, 0, 0);
+            margin-bottom: 20px;
+        }
+        .block-container h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1px;
+        }
+        .block-container p {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+        .block-container button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .block-container button:hover {
+            background-color: rgb(94, 80, 83);
+        }
+    </style>
+</head>
+<body>
+
+<div class="block-container">
+    <h2>MOTOR TRAIL DENGAN PERFORMA TERBAIK</h2>
+    <h4>MENURUT AROWI 2 RACING TEAM </h4>
+    <p>MANDENDER SPEED</p>
+    <button>Tampilkan</button>
+</div>
+    
+</body>
+</html>
